@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Sample_class from './component/Sample'
-import Demo_class from './component/Demo'
-import Demo2 from './component/Demo2'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+// import Sample_class from './component/Sample'
+// import Demo_class from './component/Demo'
+// import Demo2 from './component/Demo2'
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -57,16 +57,19 @@ import Demo2 from './component/Demo2'
 // }
 
 // export default App
-function App() {
-  return(
-    <>
-    <div>
-      <Sample_class/>
-      <Demo_class color='green'width='200px'/>
-      <Demo2/>
-    </div>
-    </>
-  )
-  }
+/*-----------------------------------------------------------------------------------------------------------*/
+// function App() {
+//   return(
+//     <>
+//     <div>
+//       <Sample_class/>
+//       <Demo_class color='green'width='200px'/>
+//       <Demo2/>
+//     </div>
+//     </>
+//   )
+//   }
   
-  export default App
+//   export default App
+
+

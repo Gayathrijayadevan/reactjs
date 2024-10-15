@@ -37,6 +37,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Layout from "./component/Layout"
 import Home from './component/Home'
 import Contact from './component/Contact'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function App(){
     return(
