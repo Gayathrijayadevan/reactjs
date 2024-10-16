@@ -37,7 +37,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Layout from "./component/Layout"
 import Home from './component/Home'
 import Contact from './component/Contact'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import About from './component/About'
 
 export default function App(){
     return(
@@ -47,6 +47,7 @@ export default function App(){
             <Route path='/' element={<Layout/>}>
             <Route index element={<Home/>}/>
             <Route path='contact' element={<Contact/>}/>
+            <Route path='about' element={<About/>}/>
             </Route>
         </Routes>
         </BrowserRouter>
